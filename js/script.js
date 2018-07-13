@@ -1,7 +1,7 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-setInterval(printQuote, 30000); // continuously changes the quote after 30 seconds 
+setInterval(printQuote, 30000); // continuously changes the quote after 30 seconds
 
 function printQuote() {
   const quoteObject = getRandomQuote(); //invoking the getRandomQuote function and assigning it to a variable
@@ -101,6 +101,13 @@ function getRandomQuote() {
       citation: '',
       year: '',
       tags: ['Inspirational']
+    },
+    {
+      quote: "The secret of getting ahead is getting started.",
+      source: "Mark Twain",
+      citation: 'Newport News',
+      year: '1997',
+      tags: ['Inspirational', 'Working']
     }
   ] //end array of quotes
 
