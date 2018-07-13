@@ -119,4 +119,4 @@ function getRandomColor() { //function to return a random hexadecimal color code
   const colorList = ['#8E44AD', '#F4D03F', '#EB984E', '#CB4335', '#3498DB', '#0B5345', '#34495E', '#008080', '#800000'] //list of hexadecimal numbers
   let randomColor = Math.round(Math.random()*(colorList.length-1));
   return colorList[randomColor];
-}
+} //end getRandomColor
